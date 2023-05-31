@@ -1,8 +1,5 @@
-// import Image from 'next/image'
 "use client"
 import React from "react";
-// import background from "../public/bg-1.jpg"
-import Roll from 'react-reveal/Roll';
 import Image from 'next/image'
 import { motion } from "framer-motion"
 
@@ -23,9 +20,10 @@ const Hero = () => {
  
         <div className="flex flex-row w-[30px] p-[4px] m-[4rem] text-black">
 
-<h1 className="text-[3rem] font-bold">
+<h1 className="text-[3rem] font-semibold text-center">
 
-Welcome to DENSITY</h1>
+Welcome to <span className="text-[3.5rem] font-bold">DENSITY</span></h1>
+
 
         </div>
         </motion.div>

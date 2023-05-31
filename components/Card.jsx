@@ -11,12 +11,12 @@ export default function ActionAreaCard(props) {
   return (
  
     <>
-    <Card sx={{ width: 350,
+    <Card sx={{ Maxwidth: 350,
     height:300,
     gap:6,
 background:"black"     }}>
       <CardActionArea
-      sx={{width: 350,
+      sx={{minWidth:500,
     height:300,
     color:"black"}}
     className='border-2 border-white'

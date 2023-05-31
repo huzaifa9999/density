@@ -4,10 +4,10 @@ import { Roll } from "react-reveal";
 import Section from "./Section";
 const Intro = () => {
   return (
-    <div className="flex  justify-center items-center">
+    <div className="flex  sm:flex sm:flex-col justify-center items-center">
       <div className="flex w-[80%]  m-[3rem] p-[1rem] items-center justify-evenly flex-col border-2 border-white">
         <Roll left>
-          <div className="flex flex-row m-[2rem] p-[2rem] items-center justify-between">
+          <div className="flex sm:flex-row flex-col m-[2rem] p-[2rem] items-center justify-between">
             <Image
               src="/intro.png"
               alt="Picture of the author"
@@ -38,7 +38,7 @@ const Intro = () => {
             <h3 className="text-green-400 text-[1.75rem] text-right font-semibold ">
               {" "}
               Come join us to have a look at what we bring to the plate , try
-              our sevicecs now
+              our sevices now
             </h3>
           </div>
         </Section>

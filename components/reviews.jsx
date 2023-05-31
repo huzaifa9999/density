@@ -10,13 +10,13 @@ const Reviews = () => {
       items: 2,
     },
     512: {
-      items: 3,
+      items: 1,
     },
   };
   return (
     <>
 <Fade cascade>
-    <h2 className="font-semibold text-green-400 text-[3rem] text-center"> Let our reviews speak the truth</h2>
+    <h2 className="font-semibold text-green-400 sm:text-[2.75rem]  text-[2.25rem] text-center p-[2.2rem] border-white border-2"> Let our reviews speak the truth</h2>
     </Fade>
       <div className="flex justify-center items-center p-[5rem] m-[5rem]">
         <AliceCarousel

@@ -11,7 +11,7 @@ import Fade from "react-reveal/Fade";
 import Section from "./Section";
 export default function AlternateTimeline() {
   return (
-    <div className="flex  flex-col items-center justify-center p-[6rem] m-[10rem] border-2 border-white">
+    <div className="flex  flex-col items-center justify-center sm:p-[6rem] sm:m-[10rem] border-2 border-white">
       <div className="flex flex-col text-[3rem] text-white">
         <Fade>
           <h1> Its easy Just look at the process </h1>
@@ -69,7 +69,7 @@ export default function AlternateTimeline() {
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
+            <TimelineContent className="sm:py-[12px] sm:px-[2] width-[100%]" >
               <h1 className="text-[2rem] font-bold text-green-400">sign up </h1>
               <h2 className="text-[1.5rem] font-semibold">
                 Do the hassle free signup process , we are the single document
