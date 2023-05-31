@@ -17,12 +17,13 @@ const Footer = () => {
 /></Section>
 </div>
 <br/>
-        <Section><h2 className='text-center text-[2rem]'>Still Thinking?
-        </h2></Section>
+        <h2 className='text-center text-[2rem]'>Still Thinking?
+        </h2>
 <br/>
-        {/* <Slide bottom> */}
+      <Section>
         <h3 className='text-center text-[1.75rem]'>Give us a call at 9988776655</h3>
         <h2 className='text-center text-[1.75rem]'>Always there for you </h2>
+        </Section>
         {/* </Slide> */}
     </div>
    </>

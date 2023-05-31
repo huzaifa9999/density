@@ -7,25 +7,28 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Image from "next/image";
+import { motion } from "framer-motion";
 // import Fade from "react-reveal/Fade";
 import Section from "./Section";
 export default function AlternateTimeline() {
   return (
     <div className="flex  flex-col items-center justify-center sm:p-[6rem] sm:m-[10rem] border-2 border-white">
       <div className="flex flex-col text-[3rem] text-white">
-        {/* <Fade> */}
-          <h1> Its easy Just look at the process </h1>
-          <div style={{ borderRadius: "30px", overflow: "hidden" }}>
-            <Image src="/av2.jpg" height="175" width="600" alt="av2" />
-          </div>
-        {/* </Fade> */}
-        <br />
-        {/* <Fade cascade> */}
-          <h2 className="text-[1.75rem] text-green-400 ">
+      <Section> <h1> Its easy Just look at the process </h1></Section>
+        <div style={{ borderRadius: "30px", overflow: "hidden" }}>
+        
             {" "}
-            We do care for you!!!
-          </h2>
-        {/* </Fade> */}
+            <Image src="/av2.jpg" height="175" width="600" alt="av2" />
+          
+        </div>
+
+        <br />
+<Section>
+        <h2 className="text-[1.75rem] text-green-400 ">
+          {" "}
+          We do care for you!!!
+        </h2>
+        </Section>
       </div>
 
       <Timeline position="alternate">
@@ -69,7 +72,7 @@ export default function AlternateTimeline() {
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent className="sm:py-[12px] sm:px-[2] width-[100%]" >
+            <TimelineContent className="sm:py-[12px] sm:px-[2] width-[100%]">
               <h1 className="text-[2rem] font-bold text-green-400">sign up </h1>
               <h2 className="text-[1.5rem] font-semibold">
                 Do the hassle free signup process , we are the single document
