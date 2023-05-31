@@ -6,16 +6,24 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import Image from "next/image";
 
 export default function AlternateTimeline() {
   return (
 
-    <div className="flex  flex-col items-center justify-center p-[6rem] m-[7rem] border-2 border-white">
-    <div className="flex flex-col text-[5rem] text-white">
+    <div className="flex  flex-col items-center justify-center p-[6rem] m-[10rem] border-2 border-white">
+    <div className="flex flex-col text-[3rem] text-white">
 <h1> Its easy Just look at the process </h1>
-
+<div style={{borderRadius: '30px', overflow: 'hidden'}}>
+<Image
+  src="/av2.jpg"
+  height="175"
+  width="600"
+  alt="av2"
+/>
+</div>
 <br/>
-<h2 className="text-[2rem] "> We do care for you!!!</h2>
+<h2 className="text-[1.75rem] text-green-400 "> We do care for you!!!</h2>
     </div>
     <Timeline position="alternate">
       <TimelineItem>
@@ -24,7 +32,7 @@ export default function AlternateTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <h1 className="text-[2rem] font-bold">Reach us</h1>
+          <h1 className="text-[2rem] text-green-400 font-bold">Reach us</h1>
           <h2 className="text-[1.5rem] font-semibold">
             {" "}
             The first step is the biggest step , reach us and open the world of
@@ -39,7 +47,7 @@ export default function AlternateTimeline() {
         </TimelineSeparator>
 
         <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <h1 className="text-[2rem] font-bold">consult it</h1>
+          <h1 className="text-[2rem] font-bold text-green-400">consult it</h1>
           <h2 className="text-[1.5rem] font-semibold">
             Remove al the anxiety in the head , take consulations from our
             experts , feel confident in the decision you make
@@ -52,7 +60,7 @@ export default function AlternateTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <h1 className="text-[2rem] font-bold">sign up </h1>
+          <h1 className="text-[2rem] font-bold text-green-400">sign up </h1>
           <h2 className="text-[1.5rem] font-semibold">
             Do the hassle free signup process , we are the single document
             company
@@ -64,7 +72,7 @@ export default function AlternateTimeline() {
           <TimelineDot />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <h1 className="text-[2rem] font-bold">Enjoy </h1>
+          <h1 className="text-[2rem] font-bold text-green-400">Enjoy </h1>
           <h2 className="text-[1.5rem] font-semibold">
             Experience bliss , we make sure your things are done the perfect way
             you want , its our problem now

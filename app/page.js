@@ -4,6 +4,7 @@ import Hero from "@/components/Hero"
 import Intro from "@/components/Intro"
 import AlternateTimeline from "@/components/timeline"
 import Reviews from "@/components/reviews"
+import Footer from "@/components/footer"
 const Home = () => {
   return (
   <>
@@ -12,6 +13,7 @@ const Home = () => {
     <Intro/>
     <AlternateTimeline/>
     <Reviews/>
+    <Footer/>
   </>
   )
 }

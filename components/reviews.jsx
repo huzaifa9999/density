@@ -15,7 +15,7 @@ const Reviews = () => {
   return (
     <>
 
-    <h2 className="font-semibold text-white text-[3rem] text-center"> Let our reviews speak the truth</h2>
+    <h2 className="font-semibold text-green-400 text-[3rem] text-center"> Let our reviews speak the truth</h2>
       <div className="flex justify-center items-center p-[5rem] m-[5rem]">
         <AliceCarousel
           mouseTracking
