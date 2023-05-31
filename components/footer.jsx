@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import Slide from 'react-reveal/Slide';
+// import Slide from 'react-reveal/Slide';
 import React from 'react'
 import Section from './Section'
 const Footer = () => {
@@ -20,9 +20,10 @@ const Footer = () => {
         <Section><h2 className='text-center text-[2rem]'>Still Thinking?
         </h2></Section>
 <br/>
-        <Slide bottom><h3 className='text-center text-[1.75rem]'>Give us a call at 9988776655</h3>
+        {/* <Slide bottom> */}
+        <h3 className='text-center text-[1.75rem]'>Give us a call at 9988776655</h3>
         <h2 className='text-center text-[1.75rem]'>Always there for you </h2>
-        </Slide>
+        {/* </Slide> */}
     </div>
    </>
   )

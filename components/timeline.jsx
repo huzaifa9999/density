@@ -7,25 +7,25 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Image from "next/image";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import Section from "./Section";
 export default function AlternateTimeline() {
   return (
     <div className="flex  flex-col items-center justify-center sm:p-[6rem] sm:m-[10rem] border-2 border-white">
       <div className="flex flex-col text-[3rem] text-white">
-        <Fade>
+        {/* <Fade> */}
           <h1> Its easy Just look at the process </h1>
           <div style={{ borderRadius: "30px", overflow: "hidden" }}>
             <Image src="/av2.jpg" height="175" width="600" alt="av2" />
           </div>
-        </Fade>
+        {/* </Fade> */}
         <br />
-        <Fade cascade>
+        {/* <Fade cascade> */}
           <h2 className="text-[1.75rem] text-green-400 ">
             {" "}
             We do care for you!!!
           </h2>
-        </Fade>
+        {/* </Fade> */}
       </div>
 
       <Timeline position="alternate">

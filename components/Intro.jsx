@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
-import { Roll } from "react-reveal";
+// import { Roll } from "react-reveal";
 import Section from "./Section";
 const Intro = () => {
   return (
     <div className="flex  sm:flex sm:flex-col justify-center items-center">
       <div className="flex w-[80%]  m-[3rem] p-[1rem] items-center justify-evenly flex-col border-2 border-white">
-        <Roll left>
+        {/* <Roll left> */}
           <div className="flex sm:flex-row flex-col m-[2rem] p-[2rem] items-center justify-between">
             <Image
               src="/intro.png"
@@ -25,7 +25,7 @@ const Intro = () => {
               </span>{" "}
             </h1>
           </div>
-        </Roll>
+        {/* </Roll> */}
         <Section>
           <div className="flex  flex-col justify-left items-center bottom-[3rem] top-[3rem] p-[3rem]">
             <h2 className="text-white text-[2rem] font-bold text-left">
